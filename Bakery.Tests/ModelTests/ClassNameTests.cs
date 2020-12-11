@@ -4,8 +4,8 @@ using Bakery;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class OrderTests
   {
-    // [Test methods] go here
+    [TestMethod] 
   }
 }

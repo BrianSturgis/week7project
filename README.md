@@ -60,10 +60,10 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 | order(); |  |
 | ------| -----------|
-| test: | will create a 
+| test: | will create a an order object
                      |
 |  
-| expect:  | ().toEqual(). |
+| expect: Object| ().toEqual(pastry,bread). |
 
 | (); |  |
 | ------| -----------|
@@ -77,11 +77,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 |  
 | expect:  | ().toEqual(). |
 
-| (); |  |
-| ------| -----------|
-| test: |                         |
-|  
-| expect:  | ().toEqual(). |
+
 
 ## Technologies Used
 
