@@ -60,18 +60,27 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 | (); |  |
 | ------| -----------|
-| test: will make the API call  |                         |
+| test: |                         |
 |  
-| expect:  | (response).toEqual(200k). |
+| expect:  | ().toEqual(). |
 
-
-
-| getRateUSA(); |  |
+| (); |  |
 | ------| -----------|
-| test:   | will recieve {response.conversion_rates.USA} |
-| 
-| expect:  | (usa 1) .toEqual(usa 1) |
+| test: |                         |
+|  
+| expect:  | ().toEqual(). |
 
+| (); |  |
+| ------| -----------|
+| test: |                         |
+|  
+| expect:  | ().toEqual(). |
+
+| (); |  |
+| ------| -----------|
+| test: |                         |
+|  
+| expect:  | ().toEqual(). |
 
 ## Technologies Used
 
