@@ -74,16 +74,9 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 
 ## Technologies Used
-* HTML
-* CSS
-* Bootstrap
-* Javascript
-* jQuery
-* Coffee
-* jest
-* Babel
-* lint
-* webpack
+
+* C#
+* coffee
   
 
 ### License
