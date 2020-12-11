@@ -58,9 +58,10 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 ## TESTS
 
-| (); |  |
+| order(); |  |
 | ------| -----------|
-| test: |                         |
+| test: | will create a 
+                     |
 |  
 | expect:  | ().toEqual(). |
 
