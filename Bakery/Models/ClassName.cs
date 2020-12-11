@@ -1,6 +1,6 @@
 namespace Bakery
 {
-    public class{
+    public class Order{
 
     }
 }
