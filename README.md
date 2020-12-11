@@ -58,7 +58,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 ## TESTS
 
-| CurrencyConverter(); |  |
+| (); |  |
 | ------| -----------|
 | test: will make the API call  |                         |
 |  
