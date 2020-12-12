@@ -1,17 +1,16 @@
 using System;
-// using System.Collections.Generic;
-namespace Bakery{
+using System.Collections.Generic;
 
-// takes user inputs and provides out put
-public class Order
-{
-  // create a list for integers
-}
 
-// decide whether each input is divisible by 2 or 3
+// namespace Bakery.Models
 
-// create item total
+  // public class Order
+  
 
-// determne price of the order for out put
+// public class Bread
 
-}
+
+// public class pastry
+
+
+
