@@ -1,25 +1,23 @@
-// using System;
-// using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 
+namespace Bakery.Models
+{
+  public class Order
+  {
+    public int BreadTotal { get; set; }
+    public int PastryTotal { get; set; }
 
-// namespace Bakery.Models
-// {
-//   public class Order
-//     // variable
-//     // variable
-//     // public Order()
-//     // add bread to pastry
-// }
+    public Order(int breadTotal, int pastryTotal)
+    {
+      BreadTotal = breadTotal;
+      PastryTotal = pastryTotal;
+    }
+    public int Total(int num1, int num2)
+    {
+      int total = num1 + num2;
+      return total;
+    }
+    }
   
-  
-
-  // public class Bread
-    // total bread order 
-
-
-  // public class pastry
-
-
-
-
-
+}
