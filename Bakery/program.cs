@@ -18,6 +18,7 @@ public class Program
     {
       Console.WriteLine("Terrific! how many loafs of Bread can i get for you?");
       int breadOrder = int.Parse(Console.ReadLine());
+      Bread newBread = new Bread(breadQuantity);
     }
     else
     {

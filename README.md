@@ -23,7 +23,17 @@ This application is in a an extreme build state and is not functional
 
 
 ## USING THIS APPLICATION
+to run this project locally you will need to have .NET Core. You can check if you have .NET Core by running dotnet --version in the command line. 
 
+Please note this project uses .NET Core v2.2
+
+## Running/viewing application:
+Once you have opened the code in your preferred text editor you will need to navigate to the 'Bakery' folder (cd Bakery) in the command line and run dotnet run.
+At this point the console application should run as expected.
+Running tests:
+To run MS tests you will need to navigate to the 'Bakery.Tests' folder (cd Bakery.Tests) in the command line and then run dotnet restore.
+You should now see 'obj' folders in both the 'Bakery.Tests' folder and 'Bakery' folder.
+At this point you should be able to successfully run dotnet test in the command line (keep in mind you should still be in the Bakery.Tests folder).
 
 
 
@@ -36,11 +46,13 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 ## TESTS
 
+
+
 | order(); |  |
 | ------| -----------|
-| test: | takes user inputs and provides out put
-|
-|  
+| test: | should create an instance of Bread
+
+  
 | expect: Object| ().toEqual(pastry,bread). |
 
 
