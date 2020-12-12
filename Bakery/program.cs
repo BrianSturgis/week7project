@@ -16,7 +16,7 @@ public class Program
     string answer = Console.ReadLine();
     if (answer == "Y" || answer == "y")
     {
-      Console.WriteLine("Terrific! how many loafs of Bread can i porder for you?");
+      Console.WriteLine("Terrific! how many loafs of Bread can i get for you?");
       int breadOrder = int.Parse(Console.ReadLine());
     }
     else
