@@ -7,6 +7,8 @@ public class Program
 {
   static void Main()
   { 
+
+    // greetting
     Console.WriteLine("Would you like to make an order? ['Y' for yes, 'Enter' for no]");
     string answer = Console.ReadLine();
     if (answer == "Y" || answer == "y")
