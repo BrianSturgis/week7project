@@ -8,12 +8,12 @@
 
 
 ## Detailed Description
-This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total.
+This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
 ## KNOWN BUGS
 This application is in a an extreme build state and is not functional
 
-## Setup/Installation Requirements
+# Setup/Installation Requirements
 
 ## GIT HUB
 - repository location (https://github.com/BrianSturgis/week7project
