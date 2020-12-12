@@ -4,50 +4,28 @@
 <img src="https://github.com/BrianSturgis.png" width="200px" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
-<p align="center">Updated on Dec 7th, 2020</p>
+<p align="center">Updated on Dec 11th, 2020</p>
 
 
 ## Detailed Description
-
+This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total.
 
 ## KNOWN BUGS
-nd have not been hidden for use with UI artwork to come.
-
+This application is in a an extreme build state and is not functional
 
 ## Setup/Installation Requirements
 
 ## GIT HUB
-- repository location (https://github.com/BrianSturgis/week6project
+- repository location (https://github.com/BrianSturgis/week7project
 - open through a git termianl or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
 
 
 ## USING THIS APPLICATION
-his app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
-After installing node, navigate to the root directory of the cloned repo and type in "npm install".
-Then type in "npm run build".
-
-If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
-
-If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
-If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
 
 
-
-
-## Completing Application Setup
-Once you have gotten a 200 code response (i.e. a successful response) in Postman, copy the API key and add it as a variable to the first line of your .env file in this format API_KEY={your-api-key-here}. As mentioned before, doing so will keep your personal data (the API key) private.  This is very important as commiting the project with an api key will store that api key in the commit history and can be pushed to github.
-Once complete the API key you acquired in the 'API Key and Using an .env File' section above will automatically apply to the currency exchange API link, and the application should run as expected.  .env files are great in cojunction with .gitignore file to keep things private.
-
-## API ERROR CODES
-- "unsupported-code" if we don't support the supplied currency code (see supported currencies...).
-- "base-code-only-on-pro" if a request to the free.exchangerate-api.com endpoint is for a base code other than USD or EUR.
-- "malformed-request" when some part of your request doesn't follow the structure shown above.
-- "invalid-key" when your API key is not valid.
-- "quota-reached" when your account has reached the the number of requests allowed by your plan.
-- "not-available-on-plan" if your plan level doesn't support this type of request.
 
 ## Stretch goals
 
@@ -60,20 +38,29 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 | order(); |  |
 | ------| -----------|
-| test: | will create a an order object
-                     |
+| test: | takes user inputs and provides out put
+|
 |  
 | expect: Object| ().toEqual(pastry,bread). |
 
-| (); |  |
-| ------| -----------|
-| test: |                         |
-|  
-| expect:  | ().toEqual(). |
 
 | (); |  |
 | ------| -----------|
-| test: |                         |
+| test: |  create a list for integers                       |
+|  
+| expect:  | ().toEqual(). |
+
+
+| (); |  |
+| ------| -----------|
+| test: |  decide whether each input is divisible by 2 or 3                       |
+|  
+| expect:  | ().toEqual(). |
+
+
+| (); |  |
+| ------| -----------|
+| test: |  create item total                   |
 |  
 | expect:  | ().toEqual(). |
 
