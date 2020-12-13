@@ -27,6 +27,5 @@ namespace Bakery.Tests
       int result = newPastry.Quantity;
       Assert.AreEqual(quantity, result);
     }
-    
-    
+}
 }
