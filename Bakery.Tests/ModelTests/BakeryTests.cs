@@ -19,5 +19,14 @@ namespace Bakery.Tests
       int result = newPastry.Price;
       Assert.AreEqual(2, result);
     }
-}
+    [TestMethod] 
+    public void Pastry_PastryCreationQuantity_Int()
+    {
+      int quantity = 1;
+      Pastry newPastry = new Pastry(quantity);
+      int result = newPastry.Quantity;
+      Assert.AreEqual(quantity, result);
+    }
+    
+    
 }
