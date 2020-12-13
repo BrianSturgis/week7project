@@ -41,6 +41,15 @@ namespace Bakery.Tests
       Pastry newPastry = new Pastry(quantity);
       Assert.AreEqual(9, newPastry.PastryTotal(quantity));
     }
+    [TestMethod] 
+    public void Bread_BreadCreation_Bread()
+    {
+      Bread newBread = new Bread(1);
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
+    }
+
+
+
 
     
   }

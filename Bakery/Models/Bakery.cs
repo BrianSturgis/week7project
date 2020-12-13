@@ -23,6 +23,7 @@ namespace Bakery.Models
     public int Price { get; set; }
     public int Quantity { get; set; }
     public int Total { get; set; }
+  
     public Pastry(int quantity)
     {
       Price = 2;
@@ -34,5 +35,24 @@ namespace Bakery.Models
       Total = (quantity * 2) - ((quantity / 3) * 1);
       return Total;
     }
-}
+  }
+  public class Bread
+  {
+    public int Price { get; set; }
+    public int Quantity { get; set; }
+    public int Total { get; set; }
+
+    public Bread(string quantity)
+    {
+      Price = 5;
+      Quantity = quantity;
+      Total = 0;
+    }
+
+    public int BreadTotal(int quantity)
+    {
+      Total = (quantity * 5) - ((quantity / 3) * 5);
+      return Total;
+    }
+  }
 }
