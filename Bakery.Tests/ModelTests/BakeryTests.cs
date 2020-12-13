@@ -69,7 +69,16 @@ namespace Bakery.Tests
       int result = newBread.Total;
       Assert.AreEqual(0, result);
     }
-
+    [TestMethod]
+    public void BreadTotal_BreadCreationTotal_Int()
+    {
+      int quantity = 5;
+      Bread newBread = new Bread(quantity);
+      Assert.AreEqual(20, newBread.BreadTotal(quantity));
+    }
+    
+//  order total
+// 
 
 
 

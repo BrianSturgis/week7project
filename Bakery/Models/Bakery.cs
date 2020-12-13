@@ -36,6 +36,7 @@ namespace Bakery.Models
       return Total;
     }
   }
+  
   public class Bread
   {
     public int Price { get; set; }
