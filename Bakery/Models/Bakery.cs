@@ -48,7 +48,6 @@ namespace Bakery.Models
       Quantity = quantity;
       Total = 0;
     }
-
     public int BreadTotal(int quantity)
     {
       Total = (quantity * 5) - ((quantity / 3) * 5);
