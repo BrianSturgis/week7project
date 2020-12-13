@@ -12,7 +12,7 @@ namespace Bakery.Models
       BreadTotal = breadTotal;
       PastryTotal = pastryTotal;
     }
-    public int Total(string num1, int num2)
+    public int Total(int num1, int num2)
     {
       int total = num1 + num2;
       return total;

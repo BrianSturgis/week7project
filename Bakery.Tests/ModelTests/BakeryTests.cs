@@ -35,7 +35,7 @@ namespace Bakery.Tests
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
     [TestMethod]
-    public void PastryTotal_PastryCreationCalculateTotal_Int()
+    public void PastryTotal_PastryCreationTotal_Int()
     {
       int quantity = 5;
       Pastry newPastry = new Pastry(quantity);
