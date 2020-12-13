@@ -9,8 +9,15 @@ namespace Bakery.Tests
     [TestMethod] 
     public void Pastry_PastryCreation_Pastry()
     {
-      // Pastry newPastry = new Pastry(1);
-      // Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+      Pastry newPastry = new Pastry(1);
+      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+    }
+    [TestMethod] 
+    public void Pastry_PastryCreationPrice_Pastry()
+    {
+      Pastry newPastry = new Pastry(1);
+      int result = newPastry.Price;
+      Assert.AreEqual(2, result);
     }
 }
 }
