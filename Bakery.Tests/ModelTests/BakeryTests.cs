@@ -34,6 +34,14 @@ namespace Bakery.Tests
       Order newOrder = new Order(1, 1);
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
+    [TestMethod]
+    public void PastryTotal_PastryCreationCalculateTotal_Int()
+    {
+      int quantity = 5;
+      Pastry newPastry = new Pastry(quantity);
+      Assert.AreEqual(9, newPastry.PastryTotal(quantity));
+    }
+
     
   }
 }
