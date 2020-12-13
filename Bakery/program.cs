@@ -7,10 +7,10 @@ namespace Bakery
     static void Main()
     { 
 
-      Console.WriteLine("Hello welcome");
-      Console.WriteLine("we have some specials today so let me fill you in");
-      Console.WriteLine("today our bread which is $5 a loaf is buy 2 get one free and");
-      Console.WriteLine("our pastry which is $2 a piece is $5 for 3 of them.");
+      Console.WriteLine("Ciao!");
+      Console.WriteLine("We have some specials today so let me fill you in");
+      Console.WriteLine("Today our bread which is $5 a loaf is buy 2 get one free and");
+      Console.WriteLine("our Pastry which is $2 a piece is $5 for 3 of them.");
       Console.WriteLine("Would you like to make an order? ['Y' for yes, 'Enter' for no]");
       string answer = Console.ReadLine();
       if (answer == "Y" || answer == "y")
@@ -26,7 +26,7 @@ namespace Bakery
         {
           newBread.BreadTotal(breadQuantity);
           newPastry.PastryTotal(pastryQuantity);
-          Console.WriteLine(" your total for the bread is $" + newBread.Total + " your Pastries come to a total of $" + newPastry.Total);
+          Console.WriteLine(" Your total for the bread is $" + newBread.Total + " and your Pastries come to a total of $" + newPastry.Total);
           Console.WriteLine("Grazie Mille Tutti!  Ciao!");
         }
       }
