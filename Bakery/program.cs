@@ -1,7 +1,5 @@
 using System;
 using Bakery.Models;
-
-
 namespace Bakery
 {
   public class Program
@@ -17,12 +15,21 @@ namespace Bakery
       string answer = Console.ReadLine();
       if (answer == "Y" || answer == "y")
       {
-        Console.WriteLine("Terrific! how many loafs of Bread can i get for you?");
-        int breadOrder = int.Parse(Console.ReadLine());
-        Bread newBread = new Bread(breadQuantity);
-      }
-      else
-      {
-        Console.WriteLine("ok well please let me know if you change your mind.");
+        // Console.WriteLine("Terrific! how many loafs of Bread can i get for you?");
+        // int breadQuantity = int.Parse(Console.ReadLine());
+        // Bread newBread = new Bread(breadQuantity);
+        // if (breadQuantity >= 0)
+        Console.WriteLine("Terrific! how many pastry ya want?");
+        int pastryQuantity = int.Parse(Console.ReadLine());
+        Pastry newPastry = new Pastry(pastryQuantity);
+        if (pastryQuantity >= 0)
+        {
+          // newBread.BreadTotal(breadQuantity);
+          newPastry.PastryTotal(pastryQuantity);
+          // Console.WriteLine(" your bred total is $" + newBread.Total + " your Pasty total is $" + newPastry.Total);
+          Console.WriteLine("Thanks");
+        }
       }
     }
+  }
+}

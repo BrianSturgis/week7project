@@ -1,6 +1,6 @@
 
 
-<div align="center">
+<div align="left">
 <img src="https://github.com/BrianSturgis.png" width="200px" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
@@ -11,7 +11,7 @@
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
 ## KNOWN BUGS
-This application is in a an extreme build state and is not functional
+- this application 
 
 # Setup/Installation Requirements
 
@@ -39,6 +39,8 @@ At this point you should be able to successfully run dotnet test in the command 
 
 ## Stretch goals
 - unity driven UI
+
+
 
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>
