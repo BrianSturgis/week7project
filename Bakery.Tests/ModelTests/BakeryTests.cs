@@ -70,7 +70,7 @@ namespace Bakery.Tests
       Assert.AreEqual(20, newBread.BreadTotal(quantity));
     }
     
-//  order total TEST MISSING
+//  order total function and TEST MISSING
 
 
 

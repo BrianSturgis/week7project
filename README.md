@@ -50,15 +50,13 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 
 
-| order(); |  |
+| Pastry_PastryCreation_Pastry(); |  |
 | ------| -----------|
-| test: | should create an instance of Bread
-
-  
-| expect: Object| ().toEqual(pastry,bread). |
+| test:  should create an instance of Bread
+| Assert.AreEqual(typeof(Pastry), newPastry);
 
 
-| (); |  |
+Pastry_PastryCreationPrice_Pastry(); |  |
 | ------| -----------|
 | test: |  create a list for integers                       |
 |  
