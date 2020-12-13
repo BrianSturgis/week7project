@@ -27,13 +27,6 @@ namespace Bakery.Tests
       int result = newPastry.Quantity;
       Assert.AreEqual(quantity, result);
     }
-    
-    [TestMethod]
-    public void Order_CreatesOrder_Order()
-    {
-      Order newOrder = new Order(1, 1);
-      Assert.AreEqual(typeof(Order), newOrder.GetType());
-    }
     [TestMethod]
     public void PastryTotal_PastryCreationTotal_Int()
     {
@@ -77,8 +70,8 @@ namespace Bakery.Tests
       Assert.AreEqual(20, newBread.BreadTotal(quantity));
     }
     
-//  order total
-// 
+//  order total TEST MISSING
+
 
 
 
