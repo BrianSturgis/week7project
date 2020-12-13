@@ -27,5 +27,13 @@ namespace Bakery.Tests
       int result = newPastry.Quantity;
       Assert.AreEqual(quantity, result);
     }
-}
+    
+    [TestMethod]
+    public void Order_CreatesOrder_Order()
+    {
+      Order newOrder = new Order(1, 1);
+      Assert.AreEqual(typeof(Order), newOrder.GetType());
+    }
+    
+  }
 }
