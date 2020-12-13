@@ -6,7 +6,6 @@ namespace Bakery
   {
     static void Main()
     { 
-
       Console.WriteLine("Ciao!");
       Console.WriteLine("We have some specials today so let me fill you in");
       Console.WriteLine("Today our bread which is $5 a loaf is buy 2 get one free and");
