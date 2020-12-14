@@ -15,7 +15,7 @@ This application is for placing orders for a bakery. It can provide the user wit
 - this application has not had errors fully fleshed out
   
 
-# Setup/Installation Requirements .Net Installlation
+# Setup/Installation Requirements .Net Installation
 
 ## GIT HUB
 - repository location (https://github.com/BrianSturgis/week7project
@@ -51,7 +51,7 @@ This means .NET and C# are installed and our computer recognizes the dotnet comm
 
 
 ## Run Tests
-Open Terminal, navigate into the "PierresBakery.Tests/" folder in the command line
+Open Terminal, navigate into the "Bakery.Tests/" folder in the command line
 Run the following command $"dotnet restore" to retrieve and install the packages we listed in .csproj in our application.
 Then run the following command: $ dotnet test.
 
