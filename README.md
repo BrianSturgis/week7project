@@ -13,29 +13,45 @@ This application is for placing orders for a bakery. It can provide the user wit
 ## KNOWN BUGS
 - this application 
 
-# Setup/Installation Requirements
+# Setup/Installation Requirements .Net Installlation
 
 ## GIT HUB
 - repository location (https://github.com/BrianSturgis/week7project
-- open through a git termianl or clone editor.
+- open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
 
 
+
+
 ## USING THIS APPLICATION
-to run this project locally you will need to have .NET Core. You can check if you have .NET Core by running dotnet --version in the command line. 
+## MAC
+C# and .NET programming are fully supported on Mac operating systems. We can install .NET and C# on a Mac in a few steps:
 
-Please note this project uses .NET Core v2.2
+Download this .NET Core SDK (Software Development Kit) . Clicking this link will prompt a .pkg file download from Microsoft.
 
-## Running/viewing application:
-Once you have opened the code in your preferred text editor you will need to navigate to the 'Bakery' folder (cd Bakery) in the command line and run dotnet run.
-At this point the console application should run as expected.
-Running tests:
-To run MS tests you will need to navigate to the 'Bakery.Tests' folder (cd Bakery.Tests) in the command line and then run dotnet restore.
-You should now see 'obj' folders in both the 'Bakery.Tests' folder and 'Bakery' folder.
-At this point you should be able to successfully run dotnet test in the command line (keep in mind you should still be in the Bakery.Tests folder).
+Open the file. This will launch an installer which will walk you through installation steps. Use the default settings the installer suggests.
+
+Confirm the installation is successful by opening your terminal and running the command $ dotnet --version. You should see something like this in response: 2.2.105. This means both .NET and C# are successfully installed.
+
+## Windows
+Note on Windows Versions These Windows instructions assume you're using Windows 10. If you currently run Windows 7 or Windows 8, you may have a free upgrade available.
+
+If you are not running Windows 10 (and cannot or do not plan to upgrade), specific installation steps may differ. However, your instructor will be available to assist with personal laptop configurations during the first week of the course.
+
+## Installation Steps
+Download either the the 64-bit .NET Core SDK (Software Development Kit). Clicking these links will prompt a .exe file download from Microsoft.
+
+Open the file and follow the steps provided by the installer for your OS.
+
+Confirm the installation is successful by opening a new Windows PowerShell window and running the command dotnet --version. You should see something a response like this (version numbers do not need to be the same): 2.2.105
+This means .NET and C# are installed and our computer recognizes the dotnet command.
 
 
+## Run Tests
+Open Terminal, navigate into the "PierresBakery.Tests/" folder in the command line
+Run the following command $"dotnet restore" to retrieve and install the packages we listed in .csproj in our application.
+Then run the following command: $ dotnet test.
 
 ## Stretch goals
 - unity driven UI
@@ -63,24 +79,17 @@ Pastry_PastryCreationPrice_Pastry(); |  |
 | expect:  | ().toEqual(). |
 
 
-| (); |  |
-| ------| -----------|
-| test: |  decide whether each input is divisible by 2 or 3                       |
-|  
-| expect:  | ().toEqual(). |
-
-
-| (); |  |
-| ------| -----------|
-| test: |  create item total                   |
-|  
-| expect:  | ().toEqual(). |
 
 
 
 ## Technologies Used
 
 * C#
+* NET
+* VisualStudio Code
+* Git
+* GitHub
+* MSTest
 * coffee
   
 
