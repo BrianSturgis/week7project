@@ -11,6 +11,8 @@
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
 ## KNOWN BUGS
+- this application HAS NOT been tested %100
+- This application is a missing a method to create an order total
 - this application has not been testes for malicous use
 - this application has not had errors fully fleshed out
   
