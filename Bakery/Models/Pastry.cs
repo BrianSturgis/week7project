@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace PastryKitchen.Models
+namespace Bakery.Models
 {
   public class Pastry
     {

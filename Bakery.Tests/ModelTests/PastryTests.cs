@@ -1,12 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using PastryKitchen.Models;
-namespace PastryKitchen.Tests
+using Bakery.Models;
+namespace Bakery.Tests
 {
   [TestClass]
   public class PastryTests
   {
-    [TestMethod] 
+      [TestMethod] 
       public void Pastry_Object_Pastry()
       {
         Pastry newPastry = new Pastry(1);
