@@ -6,13 +6,13 @@ namespace Bakery.Models
 {
   public class Pastry
     {
-      // public int Price { get; set; }
+      
       public int Quantity { get; set; }
       public int Total { get; set; }
 
       public Pastry(int a)
       {
-        // Price = 2;
+        
         Quantity = 0;
         Total = 0;
       }
