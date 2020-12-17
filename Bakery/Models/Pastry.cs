@@ -12,7 +12,6 @@ namespace Bakery.Models
 
       public Pastry(int a)
       {
-        
         Quantity = 0;
         Total = 0;
       }
