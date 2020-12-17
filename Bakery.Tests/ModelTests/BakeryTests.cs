@@ -6,35 +6,7 @@ namespace Bakery.Tests
   [TestClass]
   public class BakeryTests
   {
-    [TestMethod] 
-    public void Pastry_Object_Pastry()
-    {
-      Pastry newPastry = new Pastry(1);
-      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
-    }
-    [TestMethod] 
-    public void Pastry_PricePastry()
-    {
-      Pastry newPastry = new Pastry(1);
-      int result = newPastry.Price;
-      Assert.AreEqual(2, result);
-    }
-    [TestMethod] 
-    public void Pastry_PastryQuantity_Int()
-    {
-      int quantity = 1;
-      Pastry newPastry = new Pastry(quantity);
-      int result = newPastry.Quantity;
-      Assert.AreEqual(quantity, result);
-    }
-    [TestMethod]
-    public void PastryTotal_Int()
-    {
-      int quantity = 5;
-      Pastry newPastry = new Pastry(quantity);
-      Assert.AreEqual(9, newPastry.PastryTotal(quantity));
-    }
-
+    
     [TestMethod] 
     public void Bread_Object_Bread()
     {
