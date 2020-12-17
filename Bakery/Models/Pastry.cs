@@ -10,7 +10,7 @@ namespace Bakery.Models
       public int Quantity { get; set; }
       public int Total { get; set; }
 
-      public Pastry(int Quantity)
+      public Pastry(int a)
       {
         Price = 2;
         Quantity = 1;
