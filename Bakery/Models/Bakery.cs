@@ -10,15 +10,15 @@ namespace Bakery.Models
     public int Quantity { get; set; }
     public int Total { get; set; }
 
-    public Bread(int quantity)
+    public Bread(int a)
     {
       Price = 5;
-      Quantity = quantity;
+      Quantity = 0;
       Total = 0;
     }
-    public int BreadTotal(int quantity)
+    public int BreadTotal(int Quantity)
     {
-      Total = (quantity * 5) - ((quantity / 3) * 5);
+      Total = (Quantity * 5) - ((Quantity / 3) * 5);
       return Total;
     }
   }
