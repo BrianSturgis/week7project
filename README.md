@@ -11,10 +11,8 @@
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
 ## KNOWN BUGS
-- this application HAS NOT been tested %100
-- This application is a missing a method to create an order total
+- this application HAS been fulled tested.
 - this application has not been testes for malicous use
-- this application has not had errors fully fleshed out
   
 
 # Setup/Installation Requirements .Net Installation
@@ -24,9 +22,6 @@ This application is for placing orders for a bakery. It can provide the user wit
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
-
-
-
 
 ## USING THIS APPLICATION
 ## MAC
@@ -70,17 +65,17 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 
 
-| Pastry_PastryCreation_Pastry(); |  |
+| Bread_Object_Bread; |  |
 | ------| -----------|
-| test:  should create an instance of Bread
+| test:  should create an instance of Bread 
 | Assert.AreEqual(typeof(Pastry), newPastry);
 
 
-Pastry_PastryCreationPrice_Pastry(); |  |
+Bread_BreadQuantity_Int; |  |
 | ------| -----------|
-| test: |  create a list for integers                       |
+| test: | newBread.Quantity                       |
 |  
-| expect:  | ().toEqual(). |
+| expect:Bread newBread = new Bread  | Assert.AreEqual(0, result). |
 
 
 
