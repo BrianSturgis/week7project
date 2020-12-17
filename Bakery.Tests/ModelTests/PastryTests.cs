@@ -13,7 +13,7 @@ namespace Bakery.Tests
         Assert.AreEqual(typeof(Pastry), newPastry.GetType());
       }
       [TestMethod] 
-      public void Pastry_PricePastry()
+      public void Pastry_BreadPrice_Pastry()
       {
         Pastry newPastry = new Pastry(1);
         int result = newPastry.Price;
