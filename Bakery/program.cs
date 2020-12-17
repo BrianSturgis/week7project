@@ -29,6 +29,7 @@ namespace Bakery
           newPastry.PastryTotal(pastryQuantity);
           Console.WriteLine(" The cost of your the bread is $" + newBread.Total + " and your Pastries come to a total of $" + newPastry.Total );
           Console.WriteLine("Grazie Mille Tutti!  Ciao!");
+          
         }
       }
     }
